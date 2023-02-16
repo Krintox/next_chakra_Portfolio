@@ -25,9 +25,9 @@ export default function Testimonial() {
           mb={2}
         />
 
-        <Text fontWeight={600}>Jenny Wilson</Text>
+        <Text fontWeight={600}>Krintox</Text>
         <Text fontSize={'sm'} color={useColorModeValue('gray.400', 'gray.400')}>
-          Vice President
+          Projects Head
         </Text>
       </Box>
     </Stack>
