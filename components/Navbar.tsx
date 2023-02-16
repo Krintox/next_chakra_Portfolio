@@ -50,11 +50,13 @@ import {
               aria-label={'Toggle Navigation'}
             />
           </Flex>
-          <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
+          <Flex flex={{ base: 1 }} justifyContent={'space-between'} alignItems={'center'} className = "flex-wrapper">
             <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-              fontFamily={'heading'}
-              color={useColorModeValue('gray.800', 'white')}>
+              fontFamily={'Poppins'}
+              color={useColorModeValue('gray.800', 'white')}
+              fontSize = "2xl"
+            >
               Shashank
             </Text>
   
